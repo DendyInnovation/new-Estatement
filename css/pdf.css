@@ -1,0 +1,310 @@
+*{
+    margin: 10px;
+    padding: 10;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 10px;
+    background-color: #e7f1f3;
+}
+h1{
+    color: #063F49;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+#container{
+    max-width: 715px;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+}
+#container #img{
+    width: 250px;
+    height: 150px;
+}
+#container form #search-details{
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+#container2{
+    max-width: 780px;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+}
+#container2 #img{
+    width: 250px;
+    height: 150px;
+}
+#container2 form #search-details{
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+#search-details #input1 #input-contractnumb{
+    margin: 20px 25px 10px 20px;
+    width: 200px;
+    font-size: 11pt;
+}
+#search-details #input1 #input-contractnumb #details{
+    width: 100%;
+    height: 16px;
+    color: #373737;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#search-details #input1 #input-contractnumb input{
+    height: 25px;
+    width: 200px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+#search-details #input1 #input-from{
+    margin: 20px 25px 10px 20px;
+    width: 200px;
+    font-size: 11pt;
+}
+#search-details #input1 #input-from #details{
+    width: 36px;
+    height: 16px;
+    color: #373737;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#search-details #input1 #input-from input{
+    height: 25px;
+    width: 125px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+#search-details #arrow{
+    margin-top: 105px;
+    margin-right: 25px;
+    margin-left: -80px;
+    font-size: 20pt;
+}
+#search-details #input2 #input-to{
+    margin: 88px 20px 20px -10px;
+    width: 200px;
+    font-size: 11pt;
+}
+#search-details #input2 #input-to #details{
+    width: 16px;
+    height: 16px;
+    color: #373737;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#search-details #input2 #input-to input{
+    height: 25px;
+    width: 125px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+#search-details #input1 #input-accountnumb{
+    margin: 20px 25px 10px 0px;
+    width: 200px;
+    font-size: 11pt;
+}
+#search-details #input1 #input-accountnumb #details{
+    margin: 70px 25px 10px 20px;
+    width: 36px;
+    height: 16px;
+    color: #373737;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#search-details #input1 #input-accountnumb input{
+    height: 25px;
+    width: 165px;
+    padding-left: 5px;
+    margin: 5px 25px 21px 20px;
+}
+#search-details #input2 #input-customername{
+    margin: 86.5px 20px 20px -20px;
+    width: 200px;
+    font-size: 11pt;
+}
+#search-details #input2 #input-customername #details{
+    width: 16px;
+    height: 16px;
+    color: #373737;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#search-details #input2 #input-customername input{
+    height: 25px;
+    width: 165px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+#search-details #input2 #search{
+    margin: -46px 25px 25px 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+    width: 99px;
+    height: 25px;
+    background: #FB9038;
+    color: white;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+}
+#search-details #input2 #search2{
+    margin: -113px 25px 25px -5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+    width: 99px;
+    height: 25px;
+    background: #FB9038;
+    color: white;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+}
+#search-details #input2 #add{
+    margin: 43px 25px 25px 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+    width: 99px;
+    height: 25px;
+    background: #FB9038;
+    color: white;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+}
+#search-details #input3 #input-status{
+    margin: 125px 20px 20px 80px;
+    width: 200px;
+    font-size: 11pt;
+    font-family: 'Work Sans', sans-serif;
+}
+#search-details #input3 #option{
+    margin: 103px 20px 20px 3px;
+    width: 200px;
+    font-size: 11pt;
+    font-family: 'Work Sans', sans-serif;
+}
+#search-details #input3 #input-status{
+    font-family: 'Work Sans', sans-serif;
+}
+thead{
+    background-color: #54A6BA;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: small;
+    margin-top: 20px;
+}
+
+#button #download{
+    margin: 15px 20px 10px 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 18px;
+    width: 130px;
+    height: 25px;
+    background: #0B7285;
+    color: white;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+}
+#button #regenerate{
+    margin: -34px 20px 10px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 18px;
+    width: 130px;
+    height: 25px;
+    background: #0B7285;
+    color: white;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+}

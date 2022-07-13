@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>e-Statement</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/previw.css">
+        <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    </head>
+    <body>
+        <div id="container-fluid">
+            <div class="row">
+                <div class="col">
+                    E-Statement 
+                    <h1>Email Report</h1>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row" id="atas">
+                    <img src="icon/pict1.png" class="img">
+                    <div class="col">
+                        <table>
+                            <tr>
+                                <th>Contract Number</th>
+                            </tr>
+                            <tr>
+                                <th><input type="text" placeholder="Enter Contract Number"></th>
+                                
+                                
+                            </tr>
+                            <tr>
+                                <th>From</th>
+                                <th> </th>
+                                <th>to</th>
+                            </tr>
+                            <tr>
+                                <th><input type="date">&nbsp&nbsp&nbsp<i class="fa-solid fa-arrow-right-long"></i></th>
+                                <th></th>
+                                <th><input type="date" >&nbsp&nbsp</th>
+                                <th><button><i class="fa-solid fa-magnifying-glass"></i> Search</button></th> 
+                                <th> </th>
+
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="selecetion">
+                        <div class="input-group mb-3">
+                            <h5 class="s">Status</h5>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected value="1">All</option>
+                                <option value="2">Successful</option>
+                                <option value="3">Failed</option>
+                            </select>
+                        </div>
+                    
+                </div>
+                
+                <table  class="table table-striped" style="width: 100%;">
+                    <thead class="bek">
+                        <tr>
+                            <th>No</th>
+                            <th>PDF Generated Date</th>
+                            <th>Account Reg. Date</th>
+                            <th>Contract Number</th>
+                            <th>Customer Name</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                            <th><button>regenerate</button></th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                            <th><button>download</button></th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                            <th>a</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                            <th>a</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                <div id="bBa">
+                    <!--<button class="download"><i class="fa fa-download"> Download All</i></button>
+                    <button class="regenerate"><i class="fa fa-refresh"> Regenerate All</i></button>-->
+                    <button id="bDw" class="download" onclick="location.href='test.html'" type="button"><i class="fa-solid fa-download"></i> Download All</button>
+                    <button id="bRg" class="regenerate" onclick="location.href='test.html'" type="button"><i class="fa-solid fa-rotate-right"></i> Regenerate All</button>
+                </div>
+            </div>
+        </div>   
+    </body>
+</html>
