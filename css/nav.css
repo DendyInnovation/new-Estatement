@@ -1,8 +1,9 @@
 #sidebar{
     position: fixed;
-    width: 300px;
+    width: 230px;
     height: 100%;
     left: 0;
+    /* padding-top: 10px; */
  
     
 }
@@ -50,3 +51,36 @@ body{
     padding-left: 10px;
     background-color: #0B7285;
 }
+
+#git{
+  width:30px;
+  height: 30px;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 9px;
+  /* margin-bottom: 10px; */
+  /* padding-bottom: 10px; */
+}
+.juds{
+    font-size: 18px;
+    margin-top: 15px;
+    /* align-items: center; */
+    /* text-align: start; */
+}
+.tbs{
+    background-color: #EFF4F3;
+    border-radius: 5px;
+    align-items: center;
+    height: 54px;
+    color: #0B7285;
+    padding-top: 0.5px;
+    padding-bottom: 2px;
+    
+}
+.kecil{
+    font-size: 15px;
+}
+i{
+    padding-right: 1px;
+}
+
