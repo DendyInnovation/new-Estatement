@@ -4,13 +4,11 @@
     height: 100%;
     left: 0;
     /* padding-top: 10px; */
- 
-    
 }
 #sidebar .text{
     color: white;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 900;
     line-height: 30px;
     text-align: center;
     letter-spacing: 1px;
@@ -30,7 +28,7 @@ nav ul li a{
     color: white;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 500;
     display: block;
     width: 100%;
     border-left: 3px solid transparent;
@@ -38,11 +36,14 @@ nav ul li a{
 }
 
 nav ul ul li a{
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 nav ul li a:hover{
-    color: cyan;
-    background: #0B7285;
+    color: rgb(0, 19, 19);
+    font-weight: bolder;
+    background: #cdf4ff;
+    border-radius: 10px;
 }
 #parameter{
     height: 100%;
@@ -72,11 +73,29 @@ body{
     border-radius: 5px;
     align-items: center;
     height: 54px;
+    width: 300px;
     color: #0B7285;
     padding-top: 0.5px;
+    padding-left: 1px;
     padding-bottom: 2px;
+    border-color: #0B7285;
     
 }
+
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.nav-item>a:hover {
+    color: green;
+}
+
+/*code to change background color*/
+.navbar-nav>.active>a {
+    background-color: #C0C0C0;
+    color: blue;
+}
+
 .kecil{
     font-size: 15px;
 }
@@ -84,3 +103,17 @@ i{
     padding-right: 1px;
 }
 
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-top: 600px;
+    margin-left: 10px;
+    position: fixed;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
